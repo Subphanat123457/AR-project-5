@@ -488,6 +488,9 @@
         },
         {
           "sectionFileLocation": "textures/Remove-bg.ai_1708395763330(4).texture"
+        },
+        {
+          "sectionFileLocation": "textures/356249846_110696228739546_2330496381601105760_n.texture"
         }
       ]
     },
@@ -533,6 +536,9 @@
         },
         {
           "sectionFileLocation": "materials/traffic.material"
+        },
+        {
+          "sectionFileLocation": "materials/material1.material"
         }
       ]
     },
