@@ -40,17 +40,6 @@
   "width": 125,
   "children": [
     {
-      "modelName": "data_texture_metadata_model",
-      "name": "data_texture_metadata_model0",
-      "assetDataHash": "e7b37376a5858d790ecaba0e47796e4d",
-      "colorCount": 7607,
-      "detectedAlphaChannel": "eight_bit_full_range",
-      "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 6.485089382719457,
-      "pixelsHigh": 222,
-      "pixelsWide": 125
-    },
-    {
       "modelName": "subTexture",
       "name": "Remove-bg.ai_1708395772734(1)_0",
       "identifier": "subTexture:378880-ac20aa7b-9cde-40c8-9fd6-c2a4181c0dd8",
@@ -273,6 +262,17 @@
       "width": 0.25,
       "x": 0.75,
       "y": 0.75
+    },
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "e7b37376a5858d790ecaba0e47796e4d",
+      "colorCount": 7607,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 6.485089382719457,
+      "pixelsHigh": 222,
+      "pixelsWide": 125
     }
   ]
 }
