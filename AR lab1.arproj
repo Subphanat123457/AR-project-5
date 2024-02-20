@@ -33,12 +33,7 @@
   "projectFormatType": "separated_files",
   "usingPatchesV2": true,
   "visual_programming": {
-    "graphs": [
-      {
-        "modelName": "patch_graph",
-        "identifier": "patch_graph:121122-a94792a0-a0f5-4868-bd50-31dedc624534"
-      }
-    ]
+    "sectionFileLocation": "AR lab1.patches"
   },
   "children": [
     {
@@ -455,6 +450,44 @@
         },
         {
           "sectionFileLocation": "textures/Remove-bg.ai_1706583286854(1).texture"
+        },
+        {
+          "sectionFileLocation": "textures/Remove-bg.ai_1707795620230.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Remove-bg.ai_1707795613044.texture"
+        },
+        {
+          "modelName": "image_sourced_texture_model",
+          "name": "faceTracker1 Texture",
+          "identifier": "image_sourced_texture_model:2767-ac20aa7b-9cde-40c8-9fd6-c2a4181c0dd8",
+          "sourceSceneObjectIdentifier": "facehigh:86049-627799c8-428a-40ea-a345-2983d43cbd8b"
+        },
+        {
+          "sectionFileLocation": "textures/Remove-bg.ai_1708395772734.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Remove-bg.ai_1708395763330.texture"
+        },
+        {
+          "modelName": "sequenceTexture",
+          "name": "animationSequenceTraffic",
+          "identifier": "sequenceTexture:371748-ac20aa7b-9cde-40c8-9fd6-c2a4181c0dd8",
+          "frameRate": 20,
+          "loop": false,
+          "sourceTextureIdentifier": "texture:378878-ac20aa7b-9cde-40c8-9fd6-c2a4181c0dd8"
+        },
+        {
+          "sectionFileLocation": "textures/Remove-bg.ai_1708395763330(1).texture"
+        },
+        {
+          "sectionFileLocation": "textures/Remove-bg.ai_1708395763330(2).texture"
+        },
+        {
+          "sectionFileLocation": "textures/Remove-bg.ai_1708395772734(1).texture"
+        },
+        {
+          "sectionFileLocation": "textures/Remove-bg.ai_1708395763330(4).texture"
         }
       ]
     },
@@ -476,6 +509,30 @@
         },
         {
           "sectionFileLocation": "materials/glass.material"
+        },
+        {
+          "sectionFileLocation": "materials/face.material"
+        },
+        {
+          "sectionFileLocation": "materials/deep.material"
+        },
+        {
+          "sectionFileLocation": "materials/cone.material"
+        },
+        {
+          "sectionFileLocation": "materials/deep0.material"
+        },
+        {
+          "sectionFileLocation": "materials/deep1.material"
+        },
+        {
+          "sectionFileLocation": "materials/material0.material"
+        },
+        {
+          "sectionFileLocation": "materials/tree-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/traffic.material"
         }
       ]
     },
@@ -577,7 +634,7 @@
       "effectUsesCameraControl": false,
       "effectUsesCameraInfoScriptingModule": false,
       "effectUsesCameraShare": false,
-      "effectUsesComponentEvaluation": false,
+      "effectUsesComponentEvaluation": true,
       "effectUsesComposedLocally": false,
       "effectUsesComposedMaterial": false,
       "effectUsesControllers": false,
@@ -627,10 +684,10 @@
       "effectUsesFaceExpression52Blendshapes": false,
       "effectUsesFaceExpressionExperimental": false,
       "effectUsesFaceExpressionFitting": false,
-      "effectUsesFaceExtraction": false,
+      "effectUsesFaceExtraction": true,
       "effectUsesFaceTracker": true,
       "effectUsesFaceTracker3D": true,
-      "effectUsesFaceTracker96": false,
+      "effectUsesFaceTracker96": true,
       "effectUsesFaceTrackingScripting2D": false,
       "effectUsesFaceTrueScale": false,
       "effectUsesFaceWave": false,
@@ -767,14 +824,14 @@
       "effectUsesTexturesScriptingModule": false,
       "effectUsesTimeScriptingModule": false,
       "effectUsesToasterTracking": false,
-      "effectUsesTouchGestures": false,
+      "effectUsesTouchGestures": true,
       "effectUsesTwoDimensionalText": false,
       "effectUsesTypeScript": false,
       "effectUsesUiCore": false,
       "effectUsesUiPlanarBackend": false,
       "effectUsesUnifiedTargetTracking": false,
       "effectUsesUnitsScriptingModule": false,
-      "effectUsesVariadicMath": false,
+      "effectUsesVariadicMath": true,
       "effectUsesVertexTextureFetch": false,
       "effectUsesVisualShaders": false,
       "effectUsesVisualShadersSdf": false,
@@ -797,7 +854,7 @@
       "faceExpressionFittingMinVersion": 15,
       "faceExpressionFittingRTRRetargetingMinVersion": 1,
       "faceTrackerIsEnabled": false,
-      "faceTrackerMaxFaces": 2,
+      "faceTrackerMaxFaces": 1,
       "faceTrackerMinVersion": 10,
       "facewaveMinVersion": 1,
       "hairSegmentationMinVersion": 1,
@@ -820,7 +877,9 @@
       "internalScriptingAPIEventStream": false,
       "internalScriptingAPIExperimentalCameraInfo": false,
       "internalScriptingAPIGlobalTransform": false,
-      "manuallyEnabledItemsIds": [],
+      "manuallyEnabledItemsIds": [
+        "effectUsesFaceTracker96"
+      ],
       "maxParticipantsCount": 0,
       "multiclassSegmentationMinVersion": 3004,
       "objectTrackerMaxObjects": 1,
@@ -844,7 +903,7 @@
       "touchGesturesSupportsPinch": false,
       "touchGesturesSupportsRawTouch": false,
       "touchGesturesSupportsRotate": false,
-      "touchGesturesSupportsTap": false,
+      "touchGesturesSupportsTap": true,
       "whitelistedDomains": null,
       "witAppId": null,
       "witClientToken": null,
